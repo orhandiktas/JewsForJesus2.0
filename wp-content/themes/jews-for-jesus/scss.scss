@@ -1,0 +1,861 @@
+
+$font-stack-sans-serif: proxima-nova, 'helvetica neue', helvetica, arial sans-serif;
+$font-stack-serif: 'Playfair Display', times, 'times new roman', serif;
+$font-stack-handwritten: daniel, 'comic sans', cursive;
+
+$jfj-star-logo-blue-r: 64;
+$jfj-star-logo-blue-g: 128;
+$jfj-star-logo-blue-b: 192;
+
+$jfj-star-logo-blue: #4080C0;
+$jfj-black: #333333;
+$jfj-dark-gray: #999999;
+$jfj-gray: #AAAAAA;
+$jfj-light-gray: #EEEEEE;
+$jfj-white: #FFFFFF;
+$jfj-navy-blue: #11375d;
+$jfj-accent-light-blue: #63D6D9;
+$jfj-accent-yellow: #FDCF56;
+$jfj-accent-orange: #F9A451;
+
+$subtle-shadow-h-offset: .1ex;
+$subtle-shadow-v-offset: .5ex;
+$subtle-shadow-blur: .5ex;
+$subtle-shadow-color: rgba(0,0,0,.33);
+$subtle-shadow: $subtle-shadow-h-offset $subtle-shadow-v-offset $subtle-shadow-blur $subtle-shadow-color;
+
+$normal-font-size: 18px;
+$normal-font-weight: 400;
+$button-border-size: 2px;
+
+$button-hover-top-position: -.25ex !important;
+
+/* preview helper (hide WP admin bar) 
+
+#wpadminbar {
+	display: none !important;
+	opacity: 0 !important;
+}
+
+*/
+
+/* hide Danny's search bar */
+
+header form#searchform {
+	display: none !important;
+	opacity: 0 !important;
+}
+
+/* divi override */
+
+#sidebar {
+	display: none !important;
+}
+
+.container {
+	padding: 0 !Important;
+	img.size-medium {
+		width: auto !important;
+	}
+}
+#content-area {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+#left-area {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+.et_pb_title_container {
+	padding: 1em !important;
+}
+
+/* header navigation/menu customization */
+
+div#top-header {
+	top: 0 !important;
+}
+.et-fixed-header div#et-top-navigation {
+	padding-top: 75px !important;
+}
+.et-top-navigation {
+	position: fixed;
+	right: 1px;
+	padding-top: none !important;
+}
+header#main-header, div.container.clearfix.et_menu_container {
+	height: 150px;
+	top: 0 !important;
+	position: relative;
+}
+#et-info, #et-secondary-menu > ul > li a {
+	text-decoration: none !important;
+}
+.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
+	background: none !important;
+}
+#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after {
+	display: none !important;
+}
+#top-menu-nav a {
+	font-weight: 400 !important;
+}
+#top-header a {
+	font-weight: 400 !important;
+}
+.menu-item-935 a, .menu-item-920 a, #top-menu li li a:hover {
+	background: $jfj-star-logo-blue !important;
+	color: $jfj-white !important;
+}
+.et_header_style_left #et-top-navigation nav > ul > li > a {
+	padding-bottom: 30px !important;
+}
+.et_header_style_left #et-top-navigation nav > ul > li > a:hover {
+	padding-bottom: 75px !important;
+}
+#top-menu-nav a:hover, #top-header a:hover {
+	color: $jfj-star-logo-blue !important;
+	text-shadow: $subtle-shadow !important;
+	opacity: 1 !important;
+	top: $button-hover-top-position;
+	position: relative;
+}
+.sub-menu {
+	position: fixed !important;
+	top: 150px !important;
+	left: .1px !important;
+	right: .1px !important;
+	width: 100% !important;
+}
+ul.sub-menu li.menu-item.menu-item-type-post_type.menu-item-object-page {
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align: center !important;
+}
+ul.sub-menu li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+	width: 100% !important;
+	padding: .5em 0 !important;
+	margin: 0 !important;
+	text-align: center !important;
+}
+.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header, .admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
+	position: fixed !important;
+	top: 0 !important;
+	left: .1px !important;
+	right: .1px !important;
+	width: 100% !important;
+}
+.live-chat-button-icon {
+	float: left ;
+	position: relative;
+	top: .25em;
+}
+#et-secondary-menu {
+	top: 0 !important;
+	position: relative;
+}
+.header-dropdown-header-button {
+	text-decoration: underline !important;
+	font-weight: 700 !important;
+	font-size: 32px !important;
+}
+
+/* mobile header nav */
+
+div.container.clearfix.et_menu_container {
+	width: 100% !important;
+}
+ul#mobile_menu.et_mobile_menu {
+	top: 100px !important;
+}
+#et_mobile_nav_menu ul.sub-menu {
+	clear: both !important;
+	float-left: !important;
+	display: inline-block !important;
+	position: relative !important;
+}
+.et_mobile_menu {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.mobile_menu_bar form.et-search-form, .mobile_menu_bar input.et-search-field.jfj-header-search {
+	position: absolute !important;
+	top: 1px !important;
+	right: 1px !important;
+	left: 1px !important;
+	height: 50px !important;
+	z-index: 999999999999999 !important;
+}
+form.et-search-form {
+	position: relative;
+}
+.sub-menu {
+	position: fixed !important;
+	top: 150px !important;
+	left: .1px !important;
+	right: .1px !important;
+}
+
+/* search */
+
+#top-header .et-search-form {
+	top: 2em;
+	z-index: 999 !important;
+	min-width: 150px !important;
+	min-height: 2.5em !important;
+	cursor: text !important;
+	position: relative !important;
+	margin-left: 1em !important;
+	.jfj-header-search {
+		z-index: 9999 !important;
+		min-width: 150px !important;
+		min-height: 1.5em !important;
+		color: $jfj-gray !important;
+		border: 1px solid $jfj-dark-gray !important;
+		border-radius: 1.5em !important;
+		min-width: 150px !important;
+		padding: .5ex 2em .5ex .5em !important;
+		margin: .5ex 0 !important;
+		cursor: text !important;
+		font-weight: 400;
+	}
+	button, label {
+		display: none !important;
+		opacity: 0 !important;
+	}
+}
+#et-secondary-menu span.lnr.lnr-magnifier {
+	color: $jfj-gray !important;
+	position: relative !important;
+	right: 2em !important;
+	top: .2ex !important;
+}
+
+/* footer */
+
+$footer-spacing: 14px;
+
+footer {
+	font-size: $footer-spacing !important;
+	line-height: 1.5ex;
+	text-align: center;
+	.row {
+		min-height: 150px;
+	}
+	.footer-logo-helper {
+		height: 170px;
+	}
+	.footer-logo-image {
+		width: 150px;
+		height: 150px;
+		background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/jews-for-jesus-logo-white.png");
+		background-size: contain;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer-logo-image:hover {
+		background: no-repeat center url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/blue-star.svg");
+		width: 170px;
+		height: 170px;
+		padding: -10px;
+		background-size: 120px 120px;
+	}
+	#footer-bottom {
+		background-color: $jfj-black !important;
+	}
+	p {
+		margin: $footer-spacing/4;
+		padding: $footer-spacing/4;
+		color: $jfj-white;
+	}
+	.bottom-nav {
+		padding: 0 !important;
+		margin: 1em !important;
+		li {
+			display: flex;
+			justify-content: space-between;
+			a {
+				text-align: center !important;
+				min-width: 100% !important;
+				max-width: 100% !important;
+				width: 100% !important;
+				padding: .33em;
+			}
+			a:hover {
+				opacity: 1 !important;
+				text-shadow: $subtle-shadow;
+				top: $button-hover-top-position;
+				position: relative;
+			}
+		}
+	}
+	.social {
+		a {
+			text-align: center;
+			img {
+				width: 48px;
+				height: 48px;
+				max-width: 48px;
+				max-height: 48px;
+				min-width: 48px;
+				min-height: 48px;
+				border-radius: 50%;
+				margin: 2px;
+				background-size: 105% !important;
+				background-position: center !important;
+			}
+			img:hover {
+				border: solid 2px $jfj-white;
+			}
+			.social-button-facebook {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_facebook-white-cutout.svg");
+			}
+			.social-button-twitter {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_twitter-white-cutout.svg");
+			}
+			.social-button-youtube {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_youtube-white-cutout.svg");
+			}
+			.social-button-google {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_google-white-cutout.svg");
+			}
+			.social-button-facebook:hover {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_facebook-blue-cutout.svg");
+			}
+			.social-button-twitter:hover {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_twitter-blue-cutout.svg");
+			}
+			.social-button-youtube:hover {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_youtube-blue-cutout.svg");
+			}
+			.social-button-google:hover {
+				background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_google-blue-cutout.svg");
+			}
+		}
+	}
+	#footer-info {
+		a {
+			color: $jfj-white !important;
+		}
+		color: $jfj-white !important;
+		text-align: center !important;
+		margin: 1em 0 !important;
+		padding: 1em 0 !important;
+		width: 100%;
+	}
+}
+
+/* buttons */
+
+.et_pb_button {
+	color: $jfj-white !important;
+}
+.et_pb_button:hover {
+	text-decoration: none !important;
+}
+.et_pb_button::after {
+	font-size: auto !important;
+	left: 1em !important;
+}
+.et_pb_button:hover::after {
+	color: $jfj-white !important;
+}
+
+/* team member image */
+
+.et_pb_team_member_image {
+	max-width: 200px !Important;
+	max-height: 200px !Important;
+	width: auto !Important;
+	height: auto !Important;
+	border-radius: 50% !Important;
+	overflow: hidden !Important;
+	img {
+		background-position: center !Important;
+	}
+}
+
+/* cards */
+
+.article-card {
+	.post-meta a {
+		color: $jfj-black !important;
+	}
+	.et_pb_post {
+		background: $jfj-white !important;
+		box-shadow: $subtle-shadow;
+		margin-bottom: 24px !important;
+		.entry-title, .post-meta, .post-content {
+			padding-left: 24px !important;
+			padding-right: 24px !important;
+			padding-bottom: 24px !important;
+		}
+	}
+}
+
+/* article */
+
+article {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+	$et_post_meta_wrapper-font-size: 14px;
+	div.et_post_meta_wrapper {
+		padding-top: 0 !important;
+		font-size: $et_post_meta_wrapper-font-size !important;
+		h5 {
+			font-size: $et_post_meta_wrapper-font-size !important;
+			a {
+				font-size: $et_post_meta_wrapper-font-size !important;
+				color: $jfj-star-logo-blue !important;
+			}
+		}
+	}
+}
+
+/* home */
+
+section.et_pb_fullwidth_header.et_pb_section_parallax.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_center {
+	padding-top: 120px !important;
+}
+
+.home-full-width-header {
+	text-align: center;
+	h1 {
+		font-family: $font-stack-serif !important;
+		font-weight: 400 !important;
+		font-size: 48px;
+		letter-spacing: .2ex;
+		line-height: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+		padding: .25em 24px;
+	}
+	.cursive-header h1 {
+		font-family: $font-stack-handwritten !important;
+	}
+}
+.have-questions-connect-with-jews-for-jesus {
+	h1 {
+		font-family: $font-stack-serif !important;
+		font-weight: 500 !important;
+		font-size: 48px !important;
+		margin-bottom: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	span {
+		font-weight: 300 !important;
+		font-size: 32px !important;
+		letter-spacing: 0 !important;
+		line-height: 2em !important;
+	}
+}
+
+.learn-more-about-jews-for-jesus {
+	color: $jfj-white !important;
+	.et_pb_fullwidth_header_container {
+		width: 100% !important;
+		max-width: 100% !important;
+		min-width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		.header-content {
+			width: 100% !important;
+			max-width: 1080px !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			padding-left: 2em !important;
+			padding-right: 2em !important;
+		}
+	}
+	h1 {
+		color: $jfj-white !important;
+		font-family: $font-stack-serif !important;
+		font-weight: 500 !important;
+		font-size: 48px !important;
+		margin-bottom: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	span {
+		color: $jfj-white !important;
+		font-family: $font-stack-handwritten !important;
+		font-weight: 700 !important;
+		font-size: 32px;
+		line-height: 2em !important;
+		letter-spacing: 0;
+		margin: 0;
+	}
+	p {
+		color: $jfj-white !important;
+	}
+	img {
+		max-width: 10%;
+	}
+}
+
+.recent-articles-intro {
+	text-align: center !important;
+	h1 {
+		font-family: $font-stack-serif;
+		font-weight: 400;
+		font-size: 48px;
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+.subscribe-section-module div {
+	background: $jfj-accent-light-blue !important;
+}
+
+/* contact */
+
+#left-area ul, .entry-content ul, .comment-content ul, body.et-pb-preview #main-content .container ul {
+	padding: 0 !important;
+}
+#contact-info-module {
+	.row {
+		padding: 10px;
+		margin: 10px;
+		img {
+			background-color: $jfj-star-logo-blue;
+			border-radius: 50%;
+			max-width: 100px !important;
+		}
+	}
+	.gform_footer {
+		text-align: center;
+	}
+	.gform_button {
+		border: none !important;
+		background: $jfj-star-logo-blue !important;
+		color: $jfj-white !important;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: .5em;
+		margin-bottom: .5em;
+		padding-left: 1em!important;
+		padding-right: 1em!important;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		word-wrap: break-word;
+		line-height: 1.5em;
+		border-radius: 1.5em;
+		font-weight: 600 !important;
+		font-size: 21px !important;
+	}
+	.gform_button:hover, .button:active {
+		background: $jfj-black;
+		color: $jfj-white !important;
+	}
+}
+.contact-page-branches-title-module {
+	text-align: center;
+}
+
+/* article search page */
+
+.article-search-page-module {
+	.article-search-page-module-search-bar {
+		background: $jfj-star-logo-blue;
+	}
+	.sf-field-search {
+		background: $jfj-star-logo-blue;
+		min-height: 145px;
+		padding-top: 0;
+		padding-bottom: 0;
+		h2 {
+			color: $jfj-white !important;
+		}
+		label {
+			input {
+				min-width: 150px !important;
+				min-height: 1.5em !important;
+				color: $jfj-gray !important;
+				border: 1px solid #999 !important;
+				border-radius: 1.5em !important;
+				padding: .5em 1em !important;
+				margin: 1em !important;
+				cursor: text !important;
+				font-weight: 400 !important;
+				line-height: 1em;
+				font-size: 16px;
+			}
+		}		
+	}
+	button {
+		border: none !important;
+		background: $jfj-star-logo-blue !important;
+		color: $jfj-white !important;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: .5em;
+		margin-bottom: .5em;
+		padding-left: 1em!important;
+		padding-right: 1em!important;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		word-wrap: break-word;
+		line-height: 1.5em;
+		border-radius: 1.5em;
+		font-weight: 600 !important;
+		font-size: 21px !important;
+	}
+	button:hover, button:active {
+		background: $jfj-black !important;
+		color: $jfj-white !important;
+	}
+}
+.user-self-identification-filter {
+	text-align: center;
+	background: $jfj-accent-light-blue;
+	min-height: 145px;
+	p {
+		margin: .5em;
+	}
+	button {
+		margin: .5em;
+		border: solid $jfj-star-logo-blue $button-border-size !important;
+	}
+	.selected {
+		background: $jfj-star-logo-blue !important;
+		color: $jfj-white !important;
+	}
+	.unselected {
+		background: $jfj-accent-light-blue !important;
+		color: $jfj-star-logo-blue !important;
+	}
+}
+#search-filter-form-25116 {
+	text-align: center;
+	.sf-input-text {
+		min-width: 80%;
+		width: 85%;
+		max-width: 90%;
+	}
+	span.lnr.lnr-magnifier {
+		color: $jfj-gray !important;
+		position: relative !important;
+		right: 3em !important;
+		top: .2ex !important;
+	}
+	li {
+		text-align: center;
+		* {
+			min-width: 80%;
+			width: 85%;
+			max-width: 90%;
+		}
+	}
+}
+
+/* typography */
+
+html, body {
+	color: $jfj-black !important;
+	font-size: $normal-font-size !important;
+}
+
+html, body, p, a, h1, h2, h3, h4, h5  {
+	font-family: $font-stack-sans-serif !important;
+	line-height: 1.5em !important;
+}
+
+.header-content h1 {
+	font-family: $font-stack-serif !important;
+	font-weight: 400 !important;
+	font-size: 49px !important;
+}
+
+.et_pb_title_container  h1 {
+	font-weight: 700 !important;
+	font-size: 32px !important;
+}
+
+h1 {
+	font-weight: 500 !important;
+	letter-spacing: -1px !important;
+}
+h2 {
+	font-weight: 400 !important;
+	letter-spacing: 0 !important;
+}
+h3 {
+	font-weight: 500 !important;
+	letter-spacing: 1px !important;
+}
+h4 {
+	font-weight: 500 !important;
+	letter-spacing: 1.25px !important;
+}
+h5 {
+	font-weight: 700 !important;
+	letter-spacing: 1.5px !important;
+}
+
+a {
+	font-weight: 600 !important;
+}
+
+p {
+	font-weight: $normal-font-weight !important;
+}
+
+h3, h4 {
+	color: $jfj-dark-gray !important;
+}
+h5 {
+	color: $jfj-gray !important;
+}
+
+blockquote {
+	color: $jfj-dark-gray !important;
+	border-left: solid 10px $jfj-dark-gray !important;
+	margin-left: 40px !important;
+	font-style: italic !important;
+}
+
+.hand-written-font-style {
+	font-family: $font-stack-handwritten !important;
+	letter-spacing: .2ex;
+}
+
+.sans-serif-font-style {
+	font-family: $font-stack-sans-serif !important;
+}
+
+.serif-font-style {
+	font-family: $font-stack-serif !important;
+}
+
+hr {
+	border: none !important;
+	height: 1px !important;
+	width: 75% !important;
+	margin: 2em 12.5% !important;
+	padding: 0 !important;
+	background: $jfj-gray !important;
+}
+
+/* background */
+
+.black-background, .black-background p, .black-background h1, .black-background h2, .black-background {
+	background: $jfj-black;
+	color: $jfj-white !important;
+	h3, h4 {
+		color: $jfj-light-gray !important;
+	}
+	h5 {
+		color: $jfj-gray !important;
+	}
+}
+.dark-gray-background {
+	background: $jfj-dark-gray;
+}
+.gray-background {
+	background: $jfj-gray;
+}
+.light-gray-background {
+	background: $jfj-light-gray;
+}
+.white-background {
+	background: $jfj-white;
+	h3{
+		color: #777777;
+	}
+	h4, h5 {
+		color: $jfj-dark-gray;
+	}
+}
+.star-logo-blue-background {
+	background: $jfj-star-logo-blue;
+}
+.accent-light-blue-background {
+	background: $jfj-accent-light-blue;
+}
+.accent-navy-blue-background {
+	background: $jfj-navy-blue;
+}
+.accent-yellow-background {
+	background: $jfj-accent-yellow;
+}
+.accent-orange-background {
+	background: $jfj-accent-orange;
+}
+
+/* text */
+
+.black-text {
+	color: $jfj-black !important;
+}
+.dark-gray-text {
+	color: $jfj-dark-gray;
+}
+.gray-text {
+	color: $jfj-gray;
+}
+.light-gray-text {
+	color: $jfj-light-gray;
+}
+.white-text {
+	color: $jfj-white;
+}
+.star-logo-blue-text {
+	color: $jfj-star-logo-blue;
+}
+.accent-light-blue-text {
+	color: $jfj-accent-light-blue;
+}
+.accent-navy-blue-text {
+	color: $jfj-navy-blue;
+}
+.accent-yellow-text {
+	color: $jfj-accent-yellow;
+}
+.accent-orange-text {
+	color: $jfj-accent-orange;
+}
+
+/* outline */
+
+.black-outline, .black-outline h1 a, .black-outline h2 a, .black-outline h3 a, .black-outline h4 a, .black-outline h5 a  {
+	border: solid $button-border-size $jfj-black;
+}
+.dark-gray-outline {
+	border: solid $button-border-size $jfj-dark-gray;
+}
+.gray-outline {
+	border: solid $button-border-size $jfj-gray;
+}
+.light-gray-outline {
+	border: solid $button-border-size $jfj-light-gray;
+}
+.white-outline {
+	border: solid $button-border-size $jfj-white;
+}
+.white-outline h3, .white-outline h4, .white-outline h5 {
+	border: solid $button-border-size $jfj-dark-gray;
+}
+.star-logo-blue-outline {
+	border: solid $button-border-size $jfj-star-logo-blue;
+}
+.accent-light-blue-outline {
+	border: solid $button-border-size $jfj-accent-light-blue;
+}
+.accent-navy-blue-outline {
+	border: solid $button-border-size $jfj-navy-blue;
+}
+.accent-yellow-outline {
+	border: solid $button-border-size $jfj-accent-yellow;
+}
+.accent-orange-outline {
+	border: solid $button-border-size $jfj-accent-orange;
+}
+
+/* mobile */
+
+@media screen and (min-width: 981px) {
+
+}

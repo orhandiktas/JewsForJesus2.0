@@ -1,0 +1,12 @@
+[07-Jul-2016 16:18:03 America/Chicago] PHP Fatal error:  Class 'AWeberResponse' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_entry.php on line 3
+[07-Jul-2016 16:18:03 America/Chicago] PHP Fatal error:  Interface 'AWeberOAuthAdapter' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/oauth_application.php on line 57
+[07-Jul-2016 16:18:03 America/Chicago] PHP Fatal error:  Class 'AWeberResponse' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_collection.php on line 2
+[07-Jul-2016 16:18:03 America/Chicago] PHP Fatal error:  Class 'AWeberAPIBase' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_response.php on line 14
+[08-Jul-2016 00:41:16 America/Chicago] PHP Fatal error:  Class 'AWeberResponse' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_entry.php on line 3
+[08-Jul-2016 00:41:17 America/Chicago] PHP Fatal error:  Interface 'AWeberOAuthAdapter' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/oauth_application.php on line 57
+[08-Jul-2016 00:41:17 America/Chicago] PHP Fatal error:  Class 'AWeberResponse' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_collection.php on line 2
+[08-Jul-2016 00:41:17 America/Chicago] PHP Fatal error:  Class 'AWeberAPIBase' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_response.php on line 14
+[10-Jul-2016 15:21:19 America/Chicago] PHP Fatal error:  Class 'AWeberResponse' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_entry.php on line 3
+[10-Jul-2016 15:21:19 America/Chicago] PHP Fatal error:  Interface 'AWeberOAuthAdapter' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/oauth_application.php on line 57
+[10-Jul-2016 15:21:19 America/Chicago] PHP Fatal error:  Class 'AWeberResponse' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_collection.php on line 2
+[10-Jul-2016 15:21:19 America/Chicago] PHP Fatal error:  Class 'AWeberAPIBase' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/builder/subscription/aweber/aweber_response.php on line 14

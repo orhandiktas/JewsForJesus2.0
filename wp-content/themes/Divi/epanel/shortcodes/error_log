@@ -1,0 +1,3 @@
+[07-Jul-2016 16:17:16 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/dev01/public_html/wp-content/themes/Divi/epanel/shortcodes/shortcodes.php on line 6
+[08-Jul-2016 00:39:30 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/dev01/public_html/wp-content/themes/Divi/epanel/shortcodes/shortcodes.php on line 6
+[10-Jul-2016 15:21:15 America/Chicago] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/dev01/public_html/wp-content/themes/Divi/epanel/shortcodes/shortcodes.php on line 6

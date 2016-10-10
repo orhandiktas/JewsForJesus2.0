@@ -1,0 +1,12 @@
+[08-Jul-2016 00:47:35 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[08-Jul-2016 00:47:35 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[08-Jul-2016 00:47:35 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[08-Jul-2016 00:47:35 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171
+[09-Jul-2016 17:42:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[09-Jul-2016 17:42:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[09-Jul-2016 17:42:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[09-Jul-2016 17:42:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171
+[10-Jul-2016 15:21:22 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[10-Jul-2016 15:21:22 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[10-Jul-2016 15:21:22 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[10-Jul-2016 15:21:22 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171

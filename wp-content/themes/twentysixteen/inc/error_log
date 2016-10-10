@@ -1,0 +1,9 @@
+[08-Jul-2016 00:47:37 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/back-compat.php on line 28
+[08-Jul-2016 00:47:37 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/customizer.php on line 61
+[08-Jul-2016 00:47:37 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/template-tags.php on line 169
+[09-Jul-2016 17:42:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/back-compat.php on line 28
+[09-Jul-2016 17:42:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/customizer.php on line 61
+[09-Jul-2016 17:42:24 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/template-tags.php on line 169
+[10-Jul-2016 15:21:24 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/back-compat.php on line 28
+[10-Jul-2016 15:21:24 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/customizer.php on line 61
+[10-Jul-2016 15:21:24 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/dev01/public_html/wp-content/themes/twentysixteen/inc/template-tags.php on line 169

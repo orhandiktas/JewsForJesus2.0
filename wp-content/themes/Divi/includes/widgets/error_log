@@ -1,0 +1,9 @@
+[07-Jul-2016 16:17:33 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-ads.php on line 2
+[07-Jul-2016 16:17:33 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-about.php on line 2
+[07-Jul-2016 16:17:33 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-adsense.php on line 2
+[08-Jul-2016 00:40:15 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-ads.php on line 2
+[08-Jul-2016 00:40:16 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-about.php on line 2
+[08-Jul-2016 00:40:16 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-adsense.php on line 2
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-ads.php on line 2
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-about.php on line 2
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets/widget-adsense.php on line 2

@@ -1,0 +1,18 @@
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/back-compat.php on line 26
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/featured-content.php on line 42
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/widgets.php on line 14
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/custom-header.php on line 48
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/customizer.php on line 78
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/template-tags.php on line 161
+[09-Jul-2016 17:42:18 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/back-compat.php on line 26
+[09-Jul-2016 17:42:18 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/custom-header.php on line 48
+[09-Jul-2016 17:42:18 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/customizer.php on line 78
+[09-Jul-2016 17:42:19 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/featured-content.php on line 42
+[09-Jul-2016 17:42:19 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/template-tags.php on line 161
+[09-Jul-2016 17:42:19 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/widgets.php on line 14
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/back-compat.php on line 26
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/custom-header.php on line 48
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/customizer.php on line 78
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/template-tags.php on line 161
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/featured-content.php on line 42
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/dev01/public_html/wp-content/themes/twentyfourteen/inc/widgets.php on line 14

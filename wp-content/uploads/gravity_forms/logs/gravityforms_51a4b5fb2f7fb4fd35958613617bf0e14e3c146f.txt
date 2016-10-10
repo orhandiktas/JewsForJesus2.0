@@ -1,0 +1,126 @@
+2016-08-25 19:18:56.708566 - DEBUG --> recaptcha token parameters: {"session_id":"recaptcha57bf44a0ace2c","ts_ms":1.47215273571e+12} 
+2016-08-25 19:18:56.709132 - DEBUG -->  token being used is: 06_AzZYY-ChYsgjQpJE2hmal6ftbfxqOwO_keRxEYd2s0E9gz5aKPW6-WrAHWqTVFSmuGtQUMUn9gXTenVK9dCxLK__Pn3FjWTwUK9_B7JY 
+2016-08-25 19:19:01.218703 - DEBUG --> recaptcha token parameters: {"session_id":"recaptcha57bf44a535438","ts_ms":1.47215274022e+12} 
+2016-08-25 19:19:01.219099 - DEBUG -->  token being used is: 06_AzZYY-ChYsgjQpJE2hmvYx85ON894l67lfyAfkNjgJi2LYPcj5cjDeFrehuUqEAYpsZaEISPzLrZRVe9AhCxLK__Pn3FjWTwUK9_B7JY 
+2016-08-25 19:19:03.222172 - DEBUG --> recaptcha token parameters: {"session_id":"recaptcha57bf44a7361fb","ts_ms":1.47215274222e+12} 
+2016-08-25 19:19:03.222558 - DEBUG -->  token being used is: 06_AzZYY-ChYsgjQpJE2hooUsY_-vSPUMfvO-TQoGLfw7Tl5JIdrGXmsOMtZ7XjHg_UDfFNOCdG0-2d4Rv34SixLK__Pn3FjWTwUK9_B7JY 
+2016-08-25 19:19:06.433311 - DEBUG --> recaptcha token parameters: {"session_id":"recaptcha57bf44aa69b1d","ts_ms":1.47215274543e+12} 
+2016-08-25 19:19:06.433835 - DEBUG -->  token being used is: 06_AzZYY-ChYsgjQpJE2hmkwRniKYZWDlJW78psfvtMmtYHIsXyvKfiY972E2eLm-2GcbpbeM9n1MNj-SOqhoyxLK__Pn3FjWTwUK9_B7JY 
+2016-08-25 19:19:28.060058 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#4) submission. 
+2016-08-25 19:19:28.062342 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2016-08-25 19:19:29.104377 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2016-08-25 19:19:29.104573 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2016-08-25 19:19:29.104835 - DEBUG --> GFFormsModel::save_lead(): Saving entry. 
+2016-08-25 19:19:29.105978 - DEBUG --> GFFormsModel::save_lead(): Entry record created in the database. ID: 15. 
+2016-08-25 19:19:29.106543 - DEBUG --> GFFormsModel::save_lead(): Saving entry fields. 
+2016-08-25 19:19:29.113533 - DEBUG --> GFFormsModel::save_input(): Saving: Name(#3.2 - name). Result: true 
+2016-08-25 19:19:29.116924 - DEBUG --> GFFormsModel::save_input(): Saving: Name(#3.3 - name). Result: true 
+2016-08-25 19:19:29.117749 - DEBUG --> GFFormsModel::save_input(): Saving: Name(#3.4 - name). Result: true 
+2016-08-25 19:19:29.118501 - DEBUG --> GFFormsModel::save_input(): Saving: Name(#3.6 - name). Result: true 
+2016-08-25 19:19:29.119083 - DEBUG --> GFFormsModel::save_input(): Saving: Name(#3.8 - name). Result: true 
+2016-08-25 19:19:29.120069 - DEBUG --> GFFormsModel::save_input(): Saving: Email(#4 - email). Result: true 
+2016-08-25 19:19:29.120996 - DEBUG --> GFFormsModel::save_input(): Saving: Phone(#5 - phone). Result: true 
+2016-08-25 19:19:29.122008 - DEBUG --> GFFormsModel::save_input(): Saving: Post Title(#6 - post_title). Result: true 
+2016-08-25 19:19:29.122934 - DEBUG --> GFFormsModel::save_input(): Saving: Post Body(#7 - post_content). Result: true 
+2016-08-25 19:19:29.123059 - DEBUG --> GFFormsModel::save_lead(): Finished saving entry fields. 
+2016-08-25 19:19:29.125950 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2016-08-25 19:19:29.126529 - DEBUG --> GFFormsModel::create_post(): Getting post fields. 
+2016-08-25 19:19:29.126820 - DEBUG --> GFFormsModel::create_post(): Inserting post via wp_insert_post(). 
+2016-08-25 19:19:29.223447 - DEBUG --> GFFormsModel::create_post(): Result from wp_insert_post(): 25482. 
+2016-08-25 19:19:29.225471 - DEBUG --> GFFormsModel::create_post(): Adding custom fields. 
+2016-08-25 19:19:29.225697 - DEBUG --> GFFormsModel::create_post(): Updating entry with post id. 
+2016-08-25 19:19:29.228887 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #15. 
+2016-08-25 19:19:29.229062 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #15: Array
+(
+    [0] => 57ae38504717e
+)
+
+(only active/applicable notifications are sent) 
+2016-08-25 19:19:29.229159 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#57ae38504717e - Danny Shafer). 
+2016-08-25 19:19:29.231647 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2016-08-25 19:19:29.231755 - DEBUG --> Array
+(
+    [to] => daniel.shafer@jewsforjesus.org
+    [subject] => New submission from Contact Page Form
+    [message] => <table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Daniel Shafer</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:dan@danielshafer.com'>dan@danielshafer.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(123) 123-1234</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Post Title</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">YO</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Post Body</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><p>YO</p>
+</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+    [headers] => Array
+        (
+            [From] => From: "wordpress@dev01.jewsforjesus.org" <wordpress@dev01.jewsforjesus.org>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2016-08-25 19:19:51.224865 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2016-08-25 19:19:51.225058 - ERROR --> GFCommon::send_email(): The mail message was passed off to WordPress for processing, but WordPress was unable to send the message. 
+2016-08-25 19:19:51.225811 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins, it can impact mail delivery. 
+2016-08-25 19:19:51.225920 - DEBUG --> GFCommon::send_email(): PHPMailer class returned an error message: Could not instantiate mail function. 
+2016-08-25 19:19:51.229124 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2016-08-25 19:19:51.229573 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gform_confirmation_wrapper_4' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_4' class='gform_confirmation_message_4 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2016-08-25 19:19:51.229777 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 

@@ -1,0 +1,6 @@
+[07-Jul-2016 16:17:44 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/Divi/core/admin/includes/portability.php on line 137
+[07-Jul-2016 16:17:44 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/Divi/core/admin/includes/assets.php on line 27
+[08-Jul-2016 00:40:43 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/Divi/core/admin/includes/assets.php on line 27
+[08-Jul-2016 00:40:43 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/Divi/core/admin/includes/portability.php on line 137
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/Divi/core/admin/includes/assets.php on line 27
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/themes/Divi/core/admin/includes/portability.php on line 137

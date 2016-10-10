@@ -1,0 +1,3 @@
+<?php
+/*YToxOntzOjEyOiJyZXN0cmljdGlvbnMiO2E6Mjp7czoxNDoicnNfcGFnZV9hdXRob3IiO2E6Mjp7aTozOTM7czo2OiJlbnRpdHkiO2k6NjM0O3M6NjoiZW50aXR5Ijt9czoxNDoicnNfcGFnZV9lZGl0b3IiO2E6Mjp7aTozOTM7czo2OiJlbnRpdHkiO2k6NjM0O3M6NjoiZW50aXR5Ijt9fX0=*/
+?>

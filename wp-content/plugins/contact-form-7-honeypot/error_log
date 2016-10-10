@@ -1,0 +1,3 @@
+[07-Jul-2016 16:17:33 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/plugins/contact-form-7-honeypot/honeypot.php on line 34
+[08-Jul-2016 00:40:15 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/plugins/contact-form-7-honeypot/honeypot.php on line 34
+[10-Jul-2016 15:21:41 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/plugins/contact-form-7-honeypot/honeypot.php on line 34

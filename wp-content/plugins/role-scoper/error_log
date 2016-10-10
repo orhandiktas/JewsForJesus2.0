@@ -1,0 +1,24 @@
+[07-Jul-2016 16:17:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/mu-init_rs.php on line 3
+[07-Jul-2016 16:17:31 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/meta_caps_rs.php on line 4
+[07-Jul-2016 16:17:32 America/Chicago] PHP Fatal error:  Call to undefined function did_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/eyes-only-helper_rs.php on line 2
+[07-Jul-2016 16:17:32 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/dev01/public_html/wp-content/plugins/role-scoper/attachment-helper_rs.php on line 3
+[07-Jul-2016 16:17:32 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/comments-interceptor_rs.php on line 2
+[07-Jul-2016 16:17:32 America/Chicago] PHP Fatal error:  Call to undefined function did_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/revisionary-helper_rs.php on line 2
+[07-Jul-2016 16:17:32 America/Chicago] PHP Fatal error:  Class 'RevisionaryContentRoles' not found in /home/dev01/public_html/wp-content/plugins/role-scoper/revisionary-content-roles_rs.php on line 3
+[07-Jul-2016 16:17:32 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/comments-int-administrator_rs.php on line 2
+[08-Jul-2016 00:40:06 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/mu-init_rs.php on line 3
+[08-Jul-2016 00:40:06 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/meta_caps_rs.php on line 4
+[08-Jul-2016 00:40:07 America/Chicago] PHP Fatal error:  Call to undefined function did_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/eyes-only-helper_rs.php on line 2
+[08-Jul-2016 00:40:08 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/dev01/public_html/wp-content/plugins/role-scoper/attachment-helper_rs.php on line 3
+[08-Jul-2016 00:40:10 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/comments-interceptor_rs.php on line 2
+[08-Jul-2016 00:40:13 America/Chicago] PHP Fatal error:  Call to undefined function did_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/revisionary-helper_rs.php on line 2
+[08-Jul-2016 00:40:14 America/Chicago] PHP Fatal error:  Class 'RevisionaryContentRoles' not found in /home/dev01/public_html/wp-content/plugins/role-scoper/revisionary-content-roles_rs.php on line 3
+[08-Jul-2016 00:40:14 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/comments-int-administrator_rs.php on line 2
+[10-Jul-2016 15:21:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/mu-init_rs.php on line 3
+[10-Jul-2016 15:21:31 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/meta_caps_rs.php on line 4
+[10-Jul-2016 15:21:31 America/Chicago] PHP Fatal error:  Call to undefined function did_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/eyes-only-helper_rs.php on line 2
+[10-Jul-2016 15:21:31 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/dev01/public_html/wp-content/plugins/role-scoper/attachment-helper_rs.php on line 3
+[10-Jul-2016 15:21:31 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/comments-interceptor_rs.php on line 2
+[10-Jul-2016 15:21:32 America/Chicago] PHP Fatal error:  Call to undefined function did_action() in /home/dev01/public_html/wp-content/plugins/role-scoper/revisionary-helper_rs.php on line 2
+[10-Jul-2016 15:21:32 America/Chicago] PHP Fatal error:  Class 'RevisionaryContentRoles' not found in /home/dev01/public_html/wp-content/plugins/role-scoper/revisionary-content-roles_rs.php on line 3
+[10-Jul-2016 15:21:32 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home/dev01/public_html/wp-content/plugins/role-scoper/comments-int-administrator_rs.php on line 2

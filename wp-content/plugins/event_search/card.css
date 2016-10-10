@@ -1,0 +1,31 @@
+html, body {
+	background: gray;
+}
+.jfj-card {
+	background: white;
+	padding: 1em;
+	box-shadow: 4px 6px 10px rgba(0,0,0,.1);
+}
+.jfj-person-card-image {
+	display: inline-block;
+	width: 90px !important;
+	height: 90px !important;
+	margin: 10px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	float: right;
+	position: relative;
+	top: 2em;
+}
+img {
+	max-width: 100%;
+}
+#alt_email {
+	display: none;
+}
+nav {
+	background-color: white !important;
+	box-shadow: none !important;
+}

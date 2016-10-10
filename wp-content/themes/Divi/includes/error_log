@@ -1,0 +1,12 @@
+[07-Jul-2016 16:17:16 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets.php on line 2
+[07-Jul-2016 16:17:16 America/Chicago] PHP Fatal error:  Call to undefined function next_posts_link() in /home/dev01/public_html/wp-content/themes/Divi/includes/navigation.php on line 2
+[07-Jul-2016 16:17:16 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/dev01/public_html/wp-content/themes/Divi/includes/no-results.php on line 3
+[07-Jul-2016 16:17:16 America/Chicago] PHP Fatal error:  Call to undefined function et_get_option() in /home/dev01/public_html/wp-content/themes/Divi/includes/social_icons.php on line 3
+[08-Jul-2016 00:39:30 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets.php on line 2
+[08-Jul-2016 00:39:30 America/Chicago] PHP Fatal error:  Call to undefined function next_posts_link() in /home/dev01/public_html/wp-content/themes/Divi/includes/navigation.php on line 2
+[08-Jul-2016 00:39:30 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/dev01/public_html/wp-content/themes/Divi/includes/no-results.php on line 3
+[08-Jul-2016 00:39:30 America/Chicago] PHP Fatal error:  Call to undefined function et_get_option() in /home/dev01/public_html/wp-content/themes/Divi/includes/social_icons.php on line 3
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home/dev01/public_html/wp-content/themes/Divi/includes/widgets.php on line 2
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Call to undefined function next_posts_link() in /home/dev01/public_html/wp-content/themes/Divi/includes/navigation.php on line 2
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Call to undefined function et_get_option() in /home/dev01/public_html/wp-content/themes/Divi/includes/social_icons.php on line 3
+[10-Jul-2016 15:21:20 America/Chicago] PHP Fatal error:  Call to undefined function esc_html_e() in /home/dev01/public_html/wp-content/themes/Divi/includes/no-results.php on line 3

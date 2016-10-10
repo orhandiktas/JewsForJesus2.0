@@ -1,0 +1,6 @@
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/dev01/public_html/wp-content/themes/twentyfourteen/page-templates/contributors.php on line 10
+[08-Jul-2016 00:47:36 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/dev01/public_html/wp-content/themes/twentyfourteen/page-templates/full-width.php on line 10
+[09-Jul-2016 17:42:19 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/dev01/public_html/wp-content/themes/twentyfourteen/page-templates/contributors.php on line 10
+[09-Jul-2016 17:42:20 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/dev01/public_html/wp-content/themes/twentyfourteen/page-templates/full-width.php on line 10
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/dev01/public_html/wp-content/themes/twentyfourteen/page-templates/contributors.php on line 10
+[10-Jul-2016 15:21:23 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/dev01/public_html/wp-content/themes/twentyfourteen/page-templates/full-width.php on line 10

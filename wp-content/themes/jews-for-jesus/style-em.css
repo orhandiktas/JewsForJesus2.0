@@ -1,0 +1,1523 @@
+/***********FROM STYLE.CSS**************/
+
+/*
+
+Theme Name:  Jews for Jesus
+
+Theme URI:   http://dev01.jewsforjesus.org
+
+Version:     1.0
+
+Description: Jews for Jesus
+
+Author:      Jews for Jesus
+
+Author URI:  http://dev01.jewsforjesus.org
+
+Template:    Divi
+
+Test from Emmanuel3
+
+*/
+
+
+
+
+
+/***********************************************************************
+
+Caution: do not remove this to keep Divi Children Engine always updated 
+
+Divi Children Engine version: 1.0.3
+
+***********************************************************************/
+
+
+
+/*------------------------------[FONT ICONS]-----------------------------*/
+
+/*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
+
+/*-----------------------------------------------------------------------*/
+
+
+
+.icon_tags, .icon_profile, .icon_chat, .icon_clipboard, .icon_calendar {
+
+	font-family: 'ETmodules';
+
+	speak: none;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+
+	-moz-osx-font-smoothing: grayscale;
+
+	font-size: 16px;
+
+	color: #318EC3;
+
+}
+
+.icon_tags:before {
+
+	content: "e07c";
+
+	padding: 0px 5px 0 0;
+
+}
+
+.icon_profile:before {
+
+	content: "e08a";
+
+	padding: 0 5px 0 0;
+
+}
+
+.icon_chat:before {
+
+	content: "e066";
+
+	padding: 0 5px 0 20px;
+
+}
+
+.icon_clipboard:before {
+
+	content: "e0e6";
+
+	padding: 0 5px 0 20px;
+
+}
+
+.icon_calendar:before {
+
+	content: "e023";
+
+	padding: 0 5px 0 20px;
+
+}
+
+
+
+/*- YOU CAN INCLUDE THE CUSTOM CODE FOR YOUR CHILD THEME BELOW THIS LINE-*/
+
+
+
+/*------------------------------------------------*/
+
+/*-----------------[BASIC STYLES]-----------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*---------------[MAIN LAYOUT INFO]---------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*---------------[DROPDOWN MENU]------------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*-------------------[COMMENTS]-------------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*---------------------[FOOTER]-------------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*--------------------[SIDEBAR]-------------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*------------[CAPTIONS AND ALIGNMENTS]-----------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*-----------------[WP CALENDAR]------------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*-------------------[PAGE NAVI]------------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*------------------[TRANSITIONS]-----------------*/
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+/*---------------[RESPONSIVE LAYOUTS]-------------*/
+
+/*------------------------------------------------*/
+
+
+
+/*@media only screen and ( min-width: 981px ) { }*/
+
+
+
+/*-------------------[960px]------------------*/
+
+/*@media only screen and ( min-width: 981px ) and ( max-width: 1100px ) {}*/
+
+
+
+	/*-------------------[Sliders]------------------*/
+
+
+
+	/*-------------------[Portfolio]------------------*/
+
+
+
+	/*-------------------[Sidebar]------------------*/
+
+	
+
+	/*-------------------[Menu]------------------*/
+
+	
+
+
+
+
+
+/*-------------------[768px]------------------*/
+
+/*@media only screen and ( max-width: 980px ) {}*/
+
+
+
+	/*-------------------[Portfolio]------------------*/
+
+	
+
+	/*-------------------[Sliders]------------------*/
+
+	
+
+	/*-------------------[Menu]------------------*/
+
+
+
+
+
+
+
+/*@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {}*/
+
+
+
+/*@media screen and ( max-width: 782px ) {}*/
+
+
+
+/*-------------------[480px]------------------*/
+
+/*@media only screen and ( max-width: 767px ) {}*/
+
+
+
+	/*-------------------[Menu]------------------*/
+
+
+
+
+
+
+
+/*-------------------[320px]------------------*/
+
+/*@media only screen and ( max-width: 479px ) {}*/
+
+
+
+
+
+
+
+
+/********FROM SCSS.CSS********/
+
+#wpadminbar {
+    display: none ;
+    opacity: 0 
+}
+
+
+#sidebar {
+    display: none 
+}
+
+.container {
+    padding: 0 
+}
+
+.container img.size-medium {
+    width: auto 
+}
+
+#content-area {
+    padding-bottom: 0 ;
+    margin-bottom: 0 
+}
+
+#left-area {
+    padding-bottom: 0 ;
+    margin-bottom: 0 
+}
+
+.et_pb_title_container {
+    padding: 1em 
+}
+
+div#top-header {
+    top: 0 
+}
+
+.et-fixed-header div#et-top-navigation {
+    padding-top: 75px 
+}
+
+.et-top-navigation {
+    position: fixed;
+    right: 1px;
+    padding-top: none 
+}
+
+header#main-header,
+div.container.clearfix.et_menu_container {
+    height: 150px;
+    top: 0 ;
+    position: relative
+}
+
+#et-info,
+#et-secondary-menu>ul>li a {
+    text-decoration: none 
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a,
+.et_header_style_split #et-top-navigation nav>ul>li>a {
+    background: none 
+}
+
+#top-menu .menu-item-has-children>a:first-child:after,
+#et-secondary-nav .menu-item-has-children>a:first-child:after {
+    display: none 
+}
+
+#top-menu-nav a {
+    font-weight: 400 
+}
+
+#top-header a {
+    font-weight: 400 
+}
+
+.menu-item-935 a,
+.menu-item-920 a,
+#top-menu li li a:hover {
+    background: #4080C0 ;
+    color: #fff 
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a {
+    padding-bottom: 30px 
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a:hover {
+    padding-bottom: 75px 
+}
+
+#top-menu-nav a:hover,
+#top-header a:hover {
+    color: #4080C0 ;
+    text-shadow: .1ex .5ex .5ex rgba(0, 0, 0, 0.33) ;
+    opacity: 1 ;
+    top: -0.25ex ;
+    position: relative
+}
+
+.sub-menu {
+    position: fixed ;
+    top: 150px ;
+    left: .1px ;
+    right: .1px ;
+    width: 100% 
+}
+
+ul.sub-menu li.menu-item.menu-item-type-post_type.menu-item-object-page {
+    width: 100% ;
+    padding: 0 ;
+    margin: 0 ;
+    text-align: center 
+}
+
+ul.sub-menu li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+    width: 100% ;
+    padding: .5em 0 ;
+    margin: 0 ;
+    text-align: center 
+}
+
+.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header,
+.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
+    position: fixed ;
+    top: 0 ;
+    left: .1px ;
+    right: .1px ;
+    width: 100% 
+}
+
+.live-chat-button-icon {
+    float: left;
+    position: relative;
+    top: .25em
+}
+
+#et-secondary-menu {
+    top: 0 ;
+    position: relative
+}
+
+div.container.clearfix.et_menu_container {
+    width: 100% 
+}
+
+ul#mobile_menu.et_mobile_menu {
+    top: 100px 
+}
+
+#et_mobile_nav_menu ul.sub-menu {
+    clear: both ;
+    display: inline-block ;
+    position: relative 
+}
+
+.et_mobile_menu {
+    padding: 0 ;
+    margin: 0 
+}
+
+.mobile_menu_bar form.et-search-form,
+.mobile_menu_bar input.et-search-field.jfj-header-search {
+    position: absolute ;
+    top: 1px ;
+    right: 1px ;
+    left: 1px ;
+    height: 50px ;
+    /*z-index: 999999999999999 */
+}
+
+form.et-search-form {
+    position: relative
+}
+
+.sub-menu {
+    position: fixed ;
+    top: 150px ;
+    left: .1px ;
+    right: .1px 
+}
+
+#top-header .et-search-form {
+    top: 0px!important;
+    /*z-index: 999!important;*/
+    min-width: 170px!important;
+    min-height: 2.5em ;
+    cursor: text ;
+    position: relative!important ;
+    margin-left: 15px!important; 
+}
+
+#top-header .et-search-form .jfj-header-search {
+    /*z-index: 9999 ;*/
+    min-width: 150px ;
+    min-height: 1.5em ;
+    color: #aaa ;
+    border: 1px solid #999 ;
+    border-radius: 1.5em ;
+    padding: .5ex 2em .5ex .5em ;
+    margin: .5ex 0 ;
+    cursor: text ;
+    font-weight: 400
+}
+
+#top-header .et-search-form button,
+#top-header .et-search-form label {
+    display: none ;
+    opacity: 0 
+}
+
+#et-secondary-menu span.lnr.lnr-magnifier {
+    color: #aaa ;
+    position: relative ;
+    right: 40px!important ;
+    top: 0px 
+}
+
+footer {
+    font-size: 14px ;
+    line-height: 1.5ex;
+    text-align: center
+}
+
+
+footer .row {
+    min-height: 150px
+}
+
+footer .footer-logo-helper {
+    height: 170px
+}
+
+footer .footer-logo-image {
+    width: 150px;
+    height: 150px;
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/jews-for-jesus-logo-white.png");
+    background-size: contain;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+footer .footer-logo-image:hover {
+    background: no-repeat center url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/blue-star.svg");
+    width: 170px;
+    height: 170px;
+    padding: -10px;
+    background-size: 120px 120px
+}
+
+footer #footer-bottom {
+    background-color: #333 
+}
+
+footer p {
+    margin: 3.5px;
+    padding: 3.5px;
+    color: #fff
+}
+
+footer .bottom-nav {
+    padding: 0 ;
+    margin: 1em 
+}
+
+footer .bottom-nav li {
+    display: flex;
+    justify-content: space-between
+}
+
+footer .bottom-nav li a {
+    text-align: center ;
+    min-width: 100% ;
+    max-width: 100% ;
+    width: 100% ;
+    padding: .33em
+}
+
+footer .bottom-nav li a:hover {
+    opacity: 1 ;
+    text-shadow: .1ex .5ex .5ex rgba(0, 0, 0, 0.33);
+    top: -0.25ex ;
+    position: relative
+}
+
+footer .social a {
+    text-align: center
+}
+
+footer .social a img {
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 50%;
+    margin: 2px;
+    background-size: 105% ;
+    background-position: center 
+}
+
+footer .social a img:hover {
+    border: solid 2px #fff
+}
+
+footer .social a .social-button-facebook {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_facebook-white-cutout.svg")
+}
+
+footer .social a .social-button-twitter {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_twitter-white-cutout.svg")
+}
+
+footer .social a .social-button-youtube {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_youtube-white-cutout.svg")
+}
+
+footer .social a .social-button-google {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_google-white-cutout.svg")
+}
+
+footer .social a .social-button-facebook:hover {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_facebook-blue-cutout.svg")
+}
+
+footer .social a .social-button-twitter:hover {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_twitter-blue-cutout.svg")
+}
+
+footer .social a .social-button-youtube:hover {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_youtube-blue-cutout.svg")
+}
+
+footer .social a .social-button-google:hover {
+    background: url("http://dev01.jewsforjesus.org/wp-content/themes/jews-for-jesus/images/social_google-blue-cutout.svg")
+}
+
+footer #footer-info {
+    color: #fff ;
+    text-align: center ;
+    margin: 1em 0 ;
+    padding: 1em 0 ;
+    width: 100%
+}
+
+footer #footer-info a {
+    color: #fff 
+}
+
+.et_pb_button {
+    color: #fff 
+}
+
+.et_pb_button:hover {
+    text-decoration: none 
+}
+
+.et_pb_button::after {
+    font-size: 18px 
+}
+
+.et_pb_button:hover::after {
+    color: #fff 
+}
+
+.et_pb_team_member_image {
+    max-width: 200px ;
+    max-height: 200px ;
+    width: auto ;
+    height: auto ;
+    border-radius: 50% ;
+    overflow: hidden 
+}
+
+.et_pb_team_member_image img {
+    background-position: center 
+}
+
+.article-card .post-meta a {
+    color: #333 
+}
+
+.article-card .et_pb_post {
+    background: #fff ;
+    box-shadow: .1ex .5ex .5ex rgba(0, 0, 0, 0.33);
+    margin-bottom: 24px 
+}
+
+.article-card .et_pb_post .entry-title,
+.article-card .et_pb_post .post-meta,
+.article-card .et_pb_post .post-content {
+    padding-left: 24px ;
+    padding-right: 24px ;
+    padding-bottom: 24px 
+}
+
+article {
+    padding-bottom: 0 ;
+    margin-bottom: 0 
+}
+
+article div.et_post_meta_wrapper {
+    padding-top: 0 ;
+    font-size: 14px 
+}
+
+article div.et_post_meta_wrapper h5 {
+    font-size: 14px 
+}
+
+article div.et_post_meta_wrapper h5 a {
+    font-size: 14px ;
+    color: #4080C0 
+}
+
+section.et_pb_fullwidth_header.et_pb_section_parallax.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_center {
+    padding-top: 120px 
+}
+
+.home-full-width-header {
+    text-align: center
+}
+
+.home-full-width-header h1 {
+    font-family: "Playfair Display", times, "times new roman", serif ;
+    font-weight: 400 ;
+    font-size: 48px;
+    letter-spacing: .2ex;
+    line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: .25em 24px
+}
+
+.home-full-width-header .cursive-header h1 {
+    font-family: daniel, "comic sans", cursive 
+}
+
+.have-questions-connect-with-jews-for-jesus h1 {
+    font-family: "Playfair Display", times, "times new roman", serif ;
+    font-weight: 500 ;
+    font-size: 48px ;
+    margin-bottom: 5px ;
+    padding-bottom: 5px 
+}
+
+.have-questions-connect-with-jews-for-jesus span {
+    font-weight: 300 ;
+    font-size: 32px ;
+    letter-spacing: 0 ;
+    line-height: 2em 
+}
+
+.learn-more-about-jews-for-jesus {
+    color: #fff 
+}
+
+.learn-more-about-jews-for-jesus .et_pb_fullwidth_header_container {
+    width: 100% ;
+    max-width: 100% ;
+    min-width: 100% ;
+    margin-left: 0 ;
+    margin-right: 0 
+}
+
+.learn-more-about-jews-for-jesus .et_pb_fullwidth_header_container .header-content {
+    width: 100% ;
+    max-width: 1080px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-left: 2em ;
+    padding-right: 2em 
+}
+
+.learn-more-about-jews-for-jesus h1 {
+    color: #fff ;
+    font-family: "Playfair Display", times, "times new roman", serif ;
+    font-weight: 500 ;
+    font-size: 48px ;
+    margin-bottom: 5px ;
+    padding-bottom: 5px 
+}
+
+.learn-more-about-jews-for-jesus span {
+    color: #fff ;
+    font-family: daniel, "comic sans", cursive ;
+    font-weight: 700 ;
+    font-size: 32px;
+    line-height: 2em ;
+    letter-spacing: 0;
+    margin: 0
+}
+
+.learn-more-about-jews-for-jesus p {
+    color: #fff 
+}
+
+.learn-more-about-jews-for-jesus img {
+    max-width: 10%
+}
+
+.recent-articles-intro {
+    text-align: center 
+}
+
+.recent-articles-intro h1 {
+    font-family: "Playfair Display", times, "times new roman", serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 5px;
+    padding-bottom: 5px
+}
+
+.subscribe-section-module div {
+    background: #63D6D9 
+}
+
+html,
+body {
+    color: #333 ;
+    font-size: 18px 
+}
+
+html,
+body,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: proxima-nova, "helvetica neue", helvetica, arial sans-serif ;
+    line-height: 1.5em 
+}
+
+.header-content h1 {
+    font-family: "Playfair Display", times, "times new roman", serif ;
+    font-weight: 400 ;
+    font-size: 49px 
+}
+
+.et_pb_title_container h1 {
+    font-weight: 700 ;
+    font-size: 32px 
+}
+
+h1 {
+    font-weight: 500 ;
+    letter-spacing: -1px 
+}
+
+h2 {
+    font-weight: 400 ;
+    letter-spacing: 0 
+}
+
+h3 {
+    font-weight: 500 ;
+    letter-spacing: 1px 
+}
+
+h4 {
+    font-weight: 500 ;
+    letter-spacing: 1.25px 
+}
+
+h5 {
+    font-weight: 700 ;
+    letter-spacing: 1.5px 
+}
+
+a {
+    font-weight: 600 
+}
+
+p {
+    font-weight: 400 
+}
+
+h3,
+h4 {
+    color: #999 
+}
+
+h5 {
+    color: #aaa 
+}
+
+blockquote {
+    color: #999 ;
+    border-left: solid 10px #999 ;
+    margin-left: 40px ;
+    font-style: italic 
+}
+
+.hand-written-font-style {
+    font-family: daniel, "comic sans", cursive ;
+    letter-spacing: .2ex
+}
+
+.sans-serif-font-style {
+    font-family: proxima-nova, "helvetica neue", helvetica, arial sans-serif 
+}
+
+.serif-font-style {
+    font-family: "Playfair Display", times, "times new roman", serif 
+}
+
+hr {
+    border: none ;
+    height: 1px ;
+    width: 75% ;
+    margin: 2em 12.5% ;
+    padding: 0 ;
+    background: #aaa 
+}
+
+.black-background,
+.black-background p,
+.black-background h1,
+.black-background h2,
+.black-background {
+    background: #333;
+    color: #fff 
+}
+
+.black-background h3,
+.black-background h4,
+.black-background p h3,
+.black-background p h4,
+.black-background h1 h3,
+.black-background h1 h4,
+.black-background h2 h3,
+.black-background h2 h4,
+.black-background h3,
+.black-background h4 {
+    color: #eee 
+}
+
+.black-background h5,
+.black-background p h5,
+.black-background h1 h5,
+.black-background h2 h5,
+.black-background h5 {
+    color: #aaa 
+}
+
+.dark-gray-background {
+    background: #999
+}
+
+.gray-background {
+    background: #aaa
+}
+
+.light-gray-background {
+    background: #eee
+}
+
+.white-background {
+    background: #fff
+}
+
+.white-background h3 {
+    color: #777777
+}
+
+.white-background h4,
+.white-background h5 {
+    color: #999
+}
+
+.star-logo-blue-background {
+    background: #4080C0
+}
+
+.accent-light-blue-background {
+    background: #63D6D9
+}
+
+.accent-navy-blue-background {
+    background: #11375d
+}
+
+.accent-yellow-background {
+    background: #FDCF56
+}
+
+.accent-orange-background {
+    background: #F9A451
+}
+
+.black-text {
+    color: #333 
+}
+
+.dark-gray-text {
+    color: #999
+}
+
+.gray-text {
+    color: #aaa
+}
+
+.light-gray-text {
+    color: #eee
+}
+
+.white-text {
+    color: #fff
+}
+
+.star-logo-blue-text {
+    color: #4080C0
+}
+
+.accent-light-blue-text {
+    color: #63D6D9
+}
+
+.accent-navy-blue-text {
+    color: #11375d
+}
+
+.accent-yellow-text {
+    color: #FDCF56
+}
+
+.accent-orange-text {
+    color: #F9A451
+}
+
+.black-outline,
+.black-outline h1 a,
+.black-outline h2 a,
+.black-outline h3 a,
+.black-outline h4 a,
+.black-outline h5 a {
+    border: solid 2px #333
+}
+
+.dark-gray-outline {
+    border: solid 2px #999
+}
+
+.gray-outline {
+    border: solid 2px #aaa
+}
+
+.light-gray-outline {
+    border: solid 2px #eee
+}
+
+.white-outline {
+    border: solid 2px #fff
+}
+
+.white-outline h3,
+.white-outline h4,
+.white-outline h5 {
+    border: solid 2px #999
+}
+
+.star-logo-blue-outline {
+    border: solid 2px #4080C0
+}
+
+.accent-light-blue-outline {
+    border: solid 2px #63D6D9
+}
+
+.accent-navy-blue-outline {
+    border: solid 2px #11375d
+}
+
+.accent-yellow-outline {
+    border: solid 2px #FDCF56
+}
+
+.accent-orange-outline {
+    border: solid 2px #F9A451
+}
+
+
+
+
+
+
+
+
+
+/*Added by EM*/
+.et_mobile_menu {
+    background-color: rgba(255,255,255,1)!important;
+}
+#logo {
+    max-height: 100px;
+	max-width: 100px;
+}
+#et-secondary-nav li {
+    position: relative;
+    text-align: right;
+}
+.container {
+	width:100%!important;
+	}
+	
+	
+#top-header .et-search-form .jfj-header-search {
+    min-width: 150px !important;
+    min-height: 1.5em !important;
+    color: #aaa !important;
+    border: 1px solid #999 !important;
+    border-radius: 1.5em !important;
+    padding: 16px 20px 15px 15px !important;
+    margin: 35px 0 !important;
+    cursor: text !important;
+    font-weight: 400;
+}
+	.et_header_style_left .et-fixed-header #et-top-navigation,
+	.et_header_style_left #et-top-navigation {
+		display: block;
+	}
+
+.mobile_menu_bar form.et-search-form, .mobile_menu_bar input.et-search-field.jfj-header-search {
+	position: absolute !important;
+	top: 1px !important;
+	right: 1px !important;
+	left: 1px !important;
+	height: 50px !important;
+	/*z-index: 50 !important;*/
+}
+/* Responsive Styles Tablet And Below */
+@media all and (max-width: 980px) {
+	/* Page Containers */
+	.et_pb_column {
+		width: 100% !important;
+	}
+}
+/******************980****************/
+@media all and (max-width: 980px)
+	{
+	.et_secondary_nav_only_menu #top-header {
+    display: block!important;
+	margin-right: 0px;
+	/*width: 560px!important;*/
+	}
+	#top-menu {
+    display: block;
+}
+	.et_non_fixed_nav.et_transparent_nav #main-header,
+	.et_non_fixed_nav.et_transparent_nav #top-header,
+	.et_fixed_nav #main-header,
+	.et_fixed_nav #top-header {
+		position: fixed;
+	}
+.et_non_fixed_nav.et_transparent_nav #top-header, .et_fixed_nav #top-header {
+    /*top: 5px;
+    right: 0;
+    left: 200px;*/
+}
+#et-secondary-nav, #et-secondary-menu {
+    display: block!important;
+}
+	.et_header_style_left .et-fixed-header #et-top-navigation,
+	.et_header_style_left #et-top-navigation {
+		display: block;
+		padding-top: 74px;
+ 	    padding-right: 20px;	}
+#et_mobile_nav_menu {
+	display:none;
+}
+#top-header .container {
+    padding-top: 0;
+    width: 100%!important;
+}
+/* Page Containers */
+	.et_pb_column {
+		width: 100% !important;
+	}
+}
+
+/******* Responsive Styles Tablet Only ******/
+@media all and (min-width: 768px) and (max-width: 980px) {
+	/* Video Module */
+	.et_pb_column_3_8 .et_pb_video_play,
+	.et_pb_column_1_3 .et_pb_video_play,
+	.et_pb_column_1_4 .et_pb_video_play {
+		margin-top: -3rem;
+		margin-left: -3rem;
+		font-size: 6rem;
+		line-height: 6rem;
+	}
+}
+
+
+
+/********768**********/
+@media all and (max-width: 768px)
+	{
+.et_secondary_nav_only_menu #top-header {
+    display: block!important;
+    margin-right: 50px;
+    margin-left: 107px;
+    width: 100%!important;
+    min-width: 390px;
+	max-width:500px;
+}
+	.et_non_fixed_nav.et_transparent_nav #main-header,
+	.et_non_fixed_nav.et_transparent_nav #top-header,
+	.et_fixed_nav #main-header,
+	.et_fixed_nav #top-header {
+		position: fixed;
+	}
+.et_non_fixed_nav.et_transparent_nav #top-header, .et_fixed_nav #top-header {
+    top: 60px!important;
+    right: 0px;
+    left: auto;
+}
+#et-secondary-nav, #et-secondary-menu {
+    display: block!important;
+}
+#et-info, #et-secondary-menu {
+    float: right;
+	}
+#top-menu {
+    display: none;
+}
+li.menu-item.menu-item-type-post_type.menu-item-object-page.jfj-search-form {
+    top: 30px;
+}
+	.et_header_style_left .et-fixed-header #et-top-navigation,
+	.et_header_style_left #et-top-navigation {
+		display: block;
+		padding-top: 5px!important;
+   		padding-right: 20px;
+	}
+#main-header{	
+	    background-color: rgba(255,255,255,1)!important;
+	}
+	#top-header .et-search-form .jfj-header-search {
+    min-width: 150px !important;
+    min-height: 1.5em !important;
+    color: #aaa !important;
+    border: 1px solid #999 !important;
+    border-radius: 1.5em !important;
+    padding: 16px 20px 15px 15px !important;
+    margin: 5px 0 !important;
+    cursor: text !important;
+    font-weight: 400;
+}
+#et-secondary-menu span.lnr.lnr-magnifier {
+    top: -25px !important;
+}
+li.menu-item.menu-item-type-post_type.menu-item-object-page.jfj-search-form {
+    width: 100%;
+    padding: 0 38px 0 115px;
+}
+.et_header_style_left .et-search-form, .et_header_style_split .et-search-form {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+/*2nd Search Box for small screens*/
+header form#searchform {
+display: inline-block!important;
+    opacity: 100!important;
+    float: none;
+    width: 100%;
+    padding: 12px 15px 0px 150px;
+	}
+input#s {
+    min-width: 150px !important;
+    min-height: 35px !important;
+    color: #aaa !important;
+    border: 1px solid #999 !important;
+    border-radius: 1.5em !important;
+    padding: 0px 40px 0px 15px !important;
+    margin: 0px 0 !important;
+    cursor: text !important;
+    font-weight: 400;
+    max-width: 220px;
+    float: right;
+	}
+header input#searchsubmit {
+    display: none;
+}
+header label.screen-reader-text {
+    display: none;
+}
+header input#s {
+    width: 100%;
+}
+li.menu-item.menu-item-type-post_type.menu-item-object-page.jfj-search-form {
+    display: none!important;
+}
+/*END 2nd Search*/
+header#main-header {
+    height: 110px!important;
+}
+}
+
+/****** Responsive Styles Tablet And Below ******/
+@media all and (max-width: 768px) {
+	/* Hide Logo On Mobile */
+	.et_hide_mobile_logo #main-header .logo_container {
+		display: none;
+		opacity: 0;
+		-webkit-transition: all 0.4s ease-in-out;
+		-moz-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;
+	}
+	#et_mobile_nav_menu {
+    display: block;
+}
+#top-header .container {
+    width: 100%;
+}
+.et_header_style_left .logo_container {
+    height: 100px;
+    width: 130px;
+}
+.sub-menu {
+    position: fixed !important;
+    top: 0px !important;
+    left: .1px !important;
+    right: .1px !important;
+}
+ul#mobile_menu {
+    overflow-y: scroll;
+    max-height:  100vh;
+}
+#mobile_menu li.menu-item.menu-item-type-post_type.menu-item-object-page.jfj-search-form {
+    display: none;
+}
+#mobile_menu li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-913 {
+    display: none;
+}
+#mobile_menu li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-912 {
+    display: none;
+}
+}
+
+/*********620************/
+@media all and (max-width: 620px)
+	{
+.et_secondary_nav_only_menu #top-header {
+    display: block!important;
+    margin-right: 50px;
+    margin-left: 107px;
+    width: 100%!important;
+    min-width: 390px;
+	max-width:415px;
+	}
+}
+
+
+
+/***************568**************/
+@media all and (max-width: 568px) {
+ul#mobile_menu.et_mobile_menu {
+    top: 0px !important;
+    margin-top: 112px!important;
+    padding-bottom: 112px!important;
+}
+
+#et-secondary-nav, #et-secondary-menu {
+    width: 100%!important;
+}
+}
+/******************468*******************/
+@media all and (max-width: 468px) {
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-911 {
+    display: none!important;
+}
+/*#top-header {
+    top: 95px !important;
+    position: relative;
+    width: 315px!important;
+}*/
+ul#mobile_menu.et_mobile_menu {
+    height: 100vh;
+}
+.et_secondary_nav_only_menu #top-header {
+    display: block!important;
+    margin-right: 45px!important;
+    margin-left: 0px;
+    width: 220px!important;
+    min-width: 90px;
+    max-width: 220px;
+    padding-top: 0px!important;
+}
+header form#searchform {
+    display: inline-block!important;
+    opacity: 100!important;
+    float: none;
+    width: 100%;
+    padding: 12px 30px 0px 150px;
+}
+.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_left #et-top-navigation {
+    display: block;
+    padding-top: 5px!important;
+    padding-right: 20px;
+}
+}
+
+/*376*/
+@media all and (max-width: 376px) {
+}
+/*320*/
+@media all and (max-width: 320px) {
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-911 {
+    display: none!important;
+}
+/*#top-header {
+    top: 95px !important;
+    position: relative;
+    width: 200px!important;
+}
+.et_secondary_nav_only_menu #top-header {
+    display: block!important;
+    width: 180px!important;
+}*/
+.et_secondary_nav_only_menu #top-header {
+    display: block!important;
+    margin-right: 50px;
+    padding-left: 80px;
+    width: 100%!important;
+}
+
+#logo {
+    max-height: 70px;
+	max-width: 70px;
+}
+.et_header_style_left .logo_container {
+    height: 100px;
+}
+}
+/*Mobile*/
+@media mobile {
+ul#mobile_menu {
+    overflow-y: scroll;
+    max-height:  100vh;
+	}
+}
+/***********FOR COLLAPSE MENU***************/
+#main-header .et_mobile_menu .menu-item-has-children > a { 
+	background-color: transparent; 
+	position: relative; 
+}
+#main-header .et_mobile_menu .menu-item-has-children > a:after {
+    font-family: 'ETmodules';
+    text-align: center;
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+}
+
+#main-header .et_mobile_menu .menu-item-has-children > a:after {
+    font-size: 16px;
+    content: '\4c';
+    top: 13px;
+    right: 10px;
+}
+
+#main-header .et_mobile_menu .menu-item-has-children.visible > a:after {
+    content: '\4d';
+}
+
+#main-header .et_mobile_menu ul.sub-menu {
+    display: none !important;
+    visibility: hidden !important;
+    transition: all 1.5s ease-in-out;
+}
+
+#main-header .et_mobile_menu .visible > ul.sub-menu {
+    display: block !important;
+    visibility: visible !important;
+}
+.nav li li a,
+.et_mobile_menu li a {
+	font-size: 18px;
+}
+/****************END FOR COLLAPSE MENU*****************/
