@@ -4,9 +4,7 @@ machine:
       America/New_York # Set the timezone
 
     # Version of php to use
-  php:
-    version:
-      5.6.5
+
 
   environment:
     WP_VERSION: latest
